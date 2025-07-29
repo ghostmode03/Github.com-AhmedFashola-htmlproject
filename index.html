@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ghostmode03 Software</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif; }
+    body { background-color: #f9f9f9; color: #333; }
+    header { background: #2b2d42; color: #fff; padding: 20px 0; text-align: center; }
+    nav { display: flex; justify-content: center; gap: 20px; background-color: #1a1c30; padding: 10px 0; }
+    nav a { color: #fff; text-decoration: none; font-weight: bold; }
+    .hero { padding: 60px 20px; text-align: center; background: #edf2f4; }
+    .hero h1 { font-size: 2.5em; color: #2b2d42; }
+    .hero p { margin-top: 10px; font-size: 1.1em; color: #555; }
+    .container { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    .services, .about, .contact { margin-bottom: 40px; }
+    h2 { color: #2b2d42; margin-bottom: 20px; }
+    .services ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .services li { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    footer { text-align: center; background: #2b2d42; color: #fff; padding: 20px; }
+    form { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    label { display: block; margin-bottom: 10px; }
+    input, textarea { width: 100%; padding: 8px; margin-top: 5px; }
+    button { padding: 10px 15px; background: #2b2d42; color: #fff; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ghostmode03 Software</h1>
+    <p>Innovative Software. Reliable Delivery.</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Your Tech Partner for Custom Software Solutions</h1>
+    <p>We build websites, apps, and enterprise solutions tailored to your business.</p>
+  </section>
+
+  <main class="container">
+    <section id="services" class="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li><strong>Web Development</strong><br>Responsive and dynamic websites using modern frameworks.</li>
+        <li><strong>Mobile App Development</strong><br>Cross-platform Android/iOS apps built with performance in mind.</li>
+        <li><strong>Software Consulting</strong><br>Technical advice and project planning to bring your ideas to life.</li>
+        <li><strong>UI/UX Design</strong><br>Clean and intuitive designs that delight users and drive results.</li>
+      </ul>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p>
+        Ghostmode03 Software is a passionate team of developers, designers, and problem-solvers. We believe in building technology that not only works, but excels. Whether you're a startup or an established enterprise, we tailor our services to fit your goals.
+      </p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form action="https://formspree.io/f/yourformid" method="POST">
+        <label>Your Name: <input type="text" name="name" required></label>
+        <label>Your Email: <input type="email" name="email" required></label>
+        <label>Message: <textarea name="message" required></textarea></label>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Ghostmode03 Software. All rights reserved.
+  </footer>
+
+</body>
+</html>
